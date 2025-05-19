@@ -41,10 +41,32 @@ A Streamlit-based application that uses Gemini API to process natural language c
    ```
 
 2. Enter the path to the directory you want to manage
+   - For testing, you can use the included demo directory: `/app/demo_files`
+
 3. Use natural language commands to organize your files, for example:
    - "Move all images to a Photos folder"
    - "Rename all PDF files to include today's date"
    - "Organize files by type"
+
+## Demo Files
+
+For testing purposes, the following demo file structure is included:
+
+```
+/app/demo_files/
+├── images/
+│   ├── image1.jpg
+│   ├── image2.png
+│   └── image3.gif
+├── documents/
+│   ├── document1.pdf
+│   ├── document2.docx
+│   └── document3.txt
+├── misc_file.zip
+└── config.json
+```
+
+You can use this directory to test the application's functionality.
 
 ## Notes
 
